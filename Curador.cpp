@@ -20,3 +20,8 @@ void Curador::imprimir()
     cout<<"Tipo: "<<tipo<<endl;
     cout<<"Puntos de curacion: "<<puntos_de_curacion<<endl;
 }
+
+void Curador::activarPoder()
+{
+    this->hp+=puntos_de_curacion;
+}

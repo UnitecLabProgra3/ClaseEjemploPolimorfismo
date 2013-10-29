@@ -13,8 +13,9 @@ class Personaje
         string tipo;
         Personaje();
         Personaje(int hp,int puntos_de_ataque,string tipo);
-        virtual void imprimir();
-        void recibirAtaque(int ataque);
+        virtual void imprimir()=0;
+        virtual void recibirAtaque(int ataque);
+        virtual void activarPoder()=0;
         virtual ~Personaje();
     protected:
     private:

@@ -8,6 +8,9 @@ class Tanque : public Personaje
     public:
         bool escudo_activado;
         Tanque(int hp, int puntos_de_ataque);
+        void imprimir();
+        void activarPoder();
+        void recibirAtaque(int ataque);
         virtual ~Tanque();
     protected:
     private:

@@ -9,6 +9,7 @@ class Curador : public Personaje
         int puntos_de_curacion;
         Curador(int hp,int puntos_de_ataque,int puntos_de_curacion);
         void imprimir();
+        void activarPoder();
         virtual ~Curador();
     protected:
     private:
