@@ -32,8 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArbolBinario.cpp" />
+		<Unit filename="ArbolBinario.h" />
 		<Unit filename="Curador.cpp" />
 		<Unit filename="Curador.h" />
+		<Unit filename="Enemigo.cpp" />
+		<Unit filename="Enemigo.h" />
+		<Unit filename="Jugador.cpp" />
+		<Unit filename="Jugador.h" />
+		<Unit filename="Lista.cpp" />
+		<Unit filename="Lista.h" />
+		<Unit filename="Nodo.cpp" />
+		<Unit filename="Nodo.h" />
+		<Unit filename="NodoArbol.cpp" />
+		<Unit filename="NodoArbol.h" />
 		<Unit filename="Personaje.cpp" />
 		<Unit filename="Personaje.h" />
 		<Unit filename="Tanque.cpp" />
